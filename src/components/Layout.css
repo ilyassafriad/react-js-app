@@ -1,0 +1,376 @@
+/* this is the first component Home.js */
+/*-------------------------------------------*/
+.home_container{
+    background-image:url('./images/background.jpg');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.title{
+    text-align:center;
+    color:white;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    font-family:'Sofia' ;
+    font-size:35px;
+    letter-spacing:5px;
+    word-spacing:10px;
+}
+#title2{
+    margin-top:100px;
+}
+#name{
+    color:#4CAF50;
+    font-size:30px;
+    font-family:serif;
+    text-align:center;
+    letter-spacing:5px;
+    border:2px solid #4CAF50;
+    padding-top:10px;
+    width:420px;
+    height:50px;
+    margin-left:460px;
+    margin-top:100px;
+    border-radius:5px;
+}
+.start{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:250px;
+    
+    margin-left:550px;
+    border-radius:5px;
+}
+.start:hover{
+    box-shadow: 0 12px 16px 0 #4CAF50,0 17px 50px 0 #4CAF50;
+    cursor:pointer;
+}
+.start span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size:25px;
+}
+.start span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    font-size:25px;
+}
+.start:hover span{
+    padding-right: 25px;
+}
+.start:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+/*---------------------------------------------------------*/
+
+
+
+/*this is the styling of all component Book1.js to Book4.js */
+/*------------------------------------------------*/
+.book1_container{
+    background-color:#1D1D1D;
+    height:600px;
+}
+.title_book1{
+    font-family:Lucida Console;
+    margin-left:150px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    color:white;
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes example {
+    from {top: 0px;}
+    to {top: 100px;}
+}
+.creator_book1{
+    /*margin-left:150px;*/
+    margin-top:100px;
+    font-size:25px;
+    color:#4CAF50;
+
+    position: relative;
+    animation-name: example2;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes example2 {
+    from {left: 0px;}
+    to {left: 150px;}
+}
+.image1{
+    width:450px;
+    height:530px;
+    /*margin-left:755px;*/
+    margin-top:-450px;
+
+    position: relative;
+    animation-name: example3;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes example3 {
+    from {left: 1000px;}
+    to {left: 755px;}
+}
+.button_book1{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:250px;
+    /*margin-left:-650px;*/
+    border-radius:5px;
+    font-size:22px;
+
+
+    position: relative;
+    animation-name: example4;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes example4 {
+    from {top:350px;}
+    to {top: 0px;}
+}
+.button_book1:hover{
+    box-shadow: 0 12px 16px 0 #4CAF50,0 17px 50px 0 #4CAF50;
+    cursor:pointer;
+}
+.script{
+    color:white;
+
+    position: relative;
+    animation-name: example2;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+.next_book1{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:5px;
+    font-size:20px;
+
+
+    position: relative;
+    animation-name: example4;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.next_book1:hover{
+    box-shadow: 0 12px 16px 0 #4CAF50,0 17px 50px 0 #4CAF50;
+    cursor:pointer;
+}
+.next_book1 span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size:25px;
+}
+.next_book1 span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    font-size:25px;
+}
+.next_book1:hover span{
+    padding-right: 25px;
+}
+.next_book1:hover span:after{
+    opacity: 1;
+    right: 0;
+} 
+/*------------------------------------------------*/
+
+
+
+/*this styling for contact component */
+/*---------------------------------------------*/
+.container_contact{
+    background-color:#1D1D1D;
+}
+.inputs{
+    border:2px solid white;
+    width:450px;
+    height:530px;
+    margin-top:50px;
+    /*margin-left:200px;*/
+    border-radius:5px;
+
+
+    position: relative;
+    animation-name: example6;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes example6 {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+.contact_title{
+    text-align:center;
+    font-size:25px;
+    color:#4CAF50;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+input{
+    width: 420px;
+    height:45px;
+    margin-left:10px;
+    border:none;
+    border-bottom:2px solid white;
+    background-color:transparent;
+    outline:none;
+    margin-top:40px;
+    font-size:20px;
+    color:white;
+}
+.message{
+    width: 420px;
+    height:65px;
+    margin-left:10px;
+    border:none;
+    border-bottom:2px solid white;
+    background-color:transparent;
+    outline:none;
+    margin-top:40px;
+    font-size:20px;
+    color:white;
+}
+.contact_button{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:5px;
+    font-size:20px;
+    margin-left:150px;
+    margin-top:50px;
+    width:200px;
+}
+.contact_button:hover{
+    box-shadow: 0 12px 16px 0 #4CAF50,0 17px 50px 0 #4CAF50;
+    cursor:pointer;
+}
+
+
+.about{
+    background-color:#4CAF50;
+    width:450px;
+    height:530px;
+    margin-top:-550px;
+    /*margin-left:700px;*/
+    border-radius:5px;
+
+
+    position: relative;
+    animation-name: example7;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes example7 {
+    from {left: 1000px;}
+    to {left: 700px;}
+}
+.about_title{
+    text-align:center;
+    font-size:25px;
+    color:white;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+.my_img{
+    margin-left:165px;
+    cursor:pointer;
+}
+.tooltip_container{
+    position: relative;
+    display: inline-block;
+}
+.tooltip_container .tooltip{
+    visibility: hidden;
+    width: 350px;
+    background-color:black;
+    /*color: #fff;*/
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    /*top: 150%;*/
+    left: 50%;
+    margin-left: -100px;
+}
+.tooltip_container .tooltip::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+    font-size:25px;
+}
+.tooltip_container:hover .tooltip{
+    visibility: visible;
+}
+
+.outils{
+    margin-top:80px;
+    background-color:transparent;
+    color:white;
+    font-size:20px;
+    margin-left:80px;
+}
+.top{
+    margin-top:35px;
+}
+/*----------------------------------*/
